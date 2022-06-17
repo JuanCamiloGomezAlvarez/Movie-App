@@ -10,8 +10,100 @@
 </head>
 
 <body>
-  <h1>hello</h1>
+
+  <header id="header" class="header-container">
+    <span class="header-arrow inactive">&lt;</span>
+    <h1 class="header-title">Movie App</h1>
+    <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+    <form id="searchForm" class="header-searchForm">
+      <input type="text" placeholder="Vengadores" />
+      <button>🔍</button>
+    </form>
+  </header>
+
+
+  <section id="trendingPreview" class="trendingPreview-container">
+    <div class="trendingPreview-header">
+      <h2 class="trendingPreview-title">Tendencías</h2>
+      <button class="trendingPreview-btn">Ver más</button>
+    </div>
+    <article class="trendingPreview-movieList">
+      <!-- <div class="movie-container">
+          <img class="movie-img" width="200"
+            src="https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2022/03/top-gun-poster-scaled.jpg?resize=800%2C1186&ssl=1"
+            alt="nombre pelicula">
+        </div> -->
+    </article>
+  </section>
+
+  <section id="categoriesPreview" class="categoriesPreview-container">
+    <h2 class="categoriesPreview-title">Categorías</h2>
+    <article class="categoriesPreview-list">
+      <!-- <div class="category.container">
+          <h3 id="" class="category-title"></h3>
+        </div> -->
+    </article>
+  </section>
+
+  <section id="genericList" class="genericList-container inactive">
+    <div class="movie-container">
+      <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+        class="movie-img">
+    </div>
+    <div class="movie-container">
+      <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+        class="movie-img">
+    </div>
+    <div class="movie-container">
+      <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+        class="movie-img">
+    </div>
+  </section>
+
+  <section id="movie-detail" class="movieDetail-container inactive">
+    <h1 class="movieDetail-title">Movie</h1>
+    <span class="movieDetail-score">9.7</span>
+    <p class="movieDetail-description"> description movie</p>
+
+    <article class="categories-list">
+      <div class="category-container">
+        <h3 id="id28" class="category-title">Romance</h3>
+      </div>
+      <div class="category-container">
+        <h3 id="id16" class="category-title">Drama</h3>
+      </div>
+      <div class="category-container">
+        <h3 id="id14" class="category-title">Action</h3>
+      </div>
+    </article>
+
+    <article class="relatedMovies-container">
+      <h2 class="relatedMovies-title">Peliculas similares</h2>
+
+      <div class="relatedMovies-scrollContainer">
+        <div class="movie-container">
+          <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+            class="movie-img">
+        </div>
+        <div class="movie-container">
+          <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+            class="movie-img">
+        </div>
+        <div class="movie-container">
+          <img src="https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" alt="Nombre pelicula"
+            class="movie-img">
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <footer>Este es el footer. ola ke ase? lol!!</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./src/secrets.js"></script>
   <script src="./src/main.js"></script>
+  <script src="./src/navigation.js"></script>
 </body>
 
 </html>

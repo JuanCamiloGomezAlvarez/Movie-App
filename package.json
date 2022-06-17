@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JuanCamiloGomezAlvarez/Movie-App/issues"
   },
-  "homepage": "https://github.com/JuanCamiloGomezAlvarez/Movie-App#readme"
+  "homepage": "https://github.com/JuanCamiloGomezAlvarez/Movie-App#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
