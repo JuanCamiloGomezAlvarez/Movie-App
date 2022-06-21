@@ -12,12 +12,13 @@
 <body>
 
   <header id="header" class="header-container">
-    <span class="header-arrow inactive">&lt;</span>
+    <span class="header-arrow ">&lt;</span>
     <h1 class="header-title">Movie App</h1>
     <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+    
     <form id="searchForm" class="header-searchForm">
       <input type="text" placeholder="Vengadores" />
-      <button>🔍</button>
+      <button id="searchBtn">🔍</button>
     </form>
   </header>
 
@@ -27,6 +28,7 @@
       <h2 class="trendingPreview-title">Tendencías</h2>
       <button class="trendingPreview-btn">Ver más</button>
     </div>
+
     <article class="trendingPreview-movieList">
       <!-- <div class="movie-container">
           <img class="movie-img" width="200"
@@ -60,7 +62,7 @@
     </div>
   </section>
 
-  <section id="movie-detail" class="movieDetail-container inactive">
+  <section id="movieDetail" class="movieDetail-container inactive">
     <h1 class="movieDetail-title">Movie</h1>
     <span class="movieDetail-score">9.7</span>
     <p class="movieDetail-description"> description movie</p>
@@ -101,7 +103,7 @@
   <footer>Este es el footer. ola ke ase? lol!!</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="./src/secrets.js"></script>
+  <script src="./src/nodes.js"></script>
   <script src="./src/main.js"></script>
   <script src="./src/navigation.js"></script>
 </body>

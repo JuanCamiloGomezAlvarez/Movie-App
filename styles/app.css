@@ -1,8 +1,7 @@
 /*general*/
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+ 
 }
 
 :root {
@@ -135,11 +134,13 @@ button {
   background: linear-gradient(180deg, rgba(0,0,0,0.35) 19.27%, rgba(0,0,0,0) 29.17%), url("https://image.tmdb.org/t/p/w200/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg");
   background-size: cover !important;
   height: 480px;
+  position: fixed;
   top: 0;
   width: 100%;
+  
 }
 
-.header-container--categoryview {
+.header-container--categoryView {
   background: linear-gradient(180deg, rgba(238,204,117,0.5) 0%, rgba(238,204,117,0) 72.92%);
 }
 
@@ -290,6 +291,8 @@ button {
 
 }
 
+
+
 .movieDetail-title {
   display: inline-block;
   width: 80%;
@@ -362,5 +365,5 @@ footer {
 /*Navigation*/
 
 .inactive {
-  
+  display: none;
 }
